@@ -1,0 +1,385 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Section 1 */
+.section1{
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 937px;
+
+}
+.section1-logo{
+    height:50vh;
+    text-align: center;
+    bottom: 0;
+}
+.wrapper .container{
+    width:60%;
+    margin: 0 auto;
+    height:20vh;
+}
+.navbar a{
+    float:right;
+    padding-top:35px;
+    padding-left:35px;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #fefeff;
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: italic;
+}
+.navbar img{
+    float:left;
+}
+/* Section 2 */
+.section2{
+    height:10vh;
+    background-color: #fff;
+    z-index: 2;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.section2 .navbar2{
+    width:60%;
+    margin: 0 auto;
+}
+.section2half{
+    display:none;
+    height:10vh;
+    background-color: #fff;
+}
+.navbar2 a{
+    float:right;
+    padding-top:35px;
+    padding-left:35px;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #414f6b;
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: italic;
+}
+/* Section 3 */
+.section3{
+    height: 100vh;
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 937px;
+}
+
+.section3Wrap{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.section3Wrap .history{
+    padding-top:30px;
+    width:60%;
+    margin: 0 auto;
+}
+.section3Wrap .history .loremText{
+    margin: 0 auto;
+    width: 65%;
+    height: 339px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Lato";
+    font-weight: 300;
+}
+.section3Wrap .photos{
+    width: 1920px;
+    height: 195px;
+    bottom: 0;
+    display:grid;
+}
+.section3Wrap .photos .backgroundcolor{
+    width: 100%;
+    height:100%;
+    background-color: #414f6b;
+    opacity: 0.6;
+    grid-column: 1;
+    grid-row: 1;
+}
+.section3Wrap .photos .slider1{
+    width: 60%;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+}
+.slider1 img{
+    padding-left:10px;
+    padding-top: 24px;
+    height: 140px;
+    width: 250px;
+}
+.dotTwo, .dotThree{
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 3px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dotOne{
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 3px;
+    background-color: #A8A8A8;
+    border-radius: 3px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.MySlides2,.MySlides3{
+    display: none;
+} 
+/* Section 4 */
+.section4{
+    height:20vh;
+    width:60%;;
+    margin: 0 auto;
+    display:flex;
+}
+.section4 p{
+    padding-top:50px;
+    align-items: center;
+    width:50%;
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Lato";
+    font-weight: 300;
+    overflow:hidden;
+}
+
+/* Section 5 */
+.section5 img{
+    padding-left:50px;
+    width:50px;
+    height:50px;
+    display:none;
+}
+    .dropdown-content {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 400px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display:none;
+}
+
+.section5{
+    height: 40px;
+    background-color: #414f6b;
+}
+.section5 .dropDown{
+    padding-bottom: 20px;
+}
+.section5Tabs{
+    width:65%;
+    margin: 0 auto;
+    display:flex;
+}
+.section5 button{
+    cursor: pointer;
+}
+.button1,.button3{
+    height:40px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 25px;
+    border: none;
+    color: #414f6b;
+    font-family: "Oswald";
+    font-weight: 700;
+    text-decoration: underline;
+}
+.button2,.button4{
+    height:40px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 25px;
+    border: none;
+    color: #b0b4be;
+    background-color: #414f6b;
+    font-family: "Oswald";
+    font-weight: 700;
+    /* text-decoration: underline; */
+}
+/* Section 6 */
+.section6{
+    height:76vh;
+    background-image: url("images/background3.png");
+    background-size: 1920px 721px;
+}
+.section6 .mountain1{
+    width:60%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+/* Section 7 */
+.section7{
+    display:none;
+    height:76vh;
+    background-image: url("images/background4.png");
+    background-size: 1920px 721px;
+}
+.section7 .mountain2{ 
+    width:60%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+/* Section 8 */
+.section8{
+    width:100%;
+    height: 74px;
+    background-color: #414f6b;
+}
+.section8 .footer{
+    width:60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.section8 .footer #copyRight{
+    width: 100%;
+    align-items: right;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  
+@media(max-width:1778px){
+    .slider1 img{
+        height: 100px;
+        width: 200px;
+    }
+}
+@media(max-width: 1450px){
+    .section1,.section3,.section7,.section6{
+        background-size: 2560px 1201px;
+    }
+    .slider1 img{
+        height: 100px;
+        width: 120px;
+    }
+}
+@media(max-width:1023px){
+    .section1,.section3,.section7,.section6{
+        background-size: 1024px 841px;
+    }
+    .section3Wrap .photos{
+        display:none;
+    }
+    .section4 .section4Wrapper{
+        overflow:hidden;
+    }
+}
+@media(max-width:767px){
+    .section1,.section3,.section7,.section6{
+        background-size: 768px 841px;
+    }
+    .section4 p{
+        display:none;
+    }
+    .section5 img{
+        display:block;
+    }
+    .section5Tabs{
+        width:65%;
+        margin: 0 auto;
+        display:none;
+    }
+}
+/* Larger screens */
+@media(max-width:1778px){
+    .section1,.section3,.section7,.section6{
+        background-size: 2560px 1201px;
+    }
+    .slider1 img{
+        height: 100px;
+        width: 200px;
+    }
+}
+/* Large screens */
+@media(max-width: 1450px){
+    .section1,.section3,.section7,.section6{
+        background-size: 1440px 841px;
+    }
+    .slider1 img{
+        height: 100px;
+        width: 120px;
+    }
+}
+/* Normal Screens */
+@media(max-width:1023px){
+    .section1,.section3,.section7,.section6{
+        background-size: 1024px 841px;
+    }
+    .section3Wrap .photos{
+        display:none;
+    }
+    .section4 .section4Wrapper{
+        overflow:hidden;
+    }
+}
+
+/* Tablet screens I needed to hide some SVG to conceal overflow*/
+@media(max-width:768px){
+    .section1,.section3,.section7,.section6{
+        background-size: 768px 841px;
+    }
+    .section4 p{
+        display:none;
+    }
+    .section5 img{
+        display:block;
+    }
+    .section5Tabs{
+        width:65%;
+        margin: 0 auto;
+        display:none;
+    }
+    #section2Logo{
+        display:none;
+    }
+}
+@media(max-width:500px){
+    .section1,.section3,.section7,.section6{
+        background-size: 521px 841px;
+    }
+}
+@media(max-width:425px){
+    .section1,.section3,.section7,.section6{
+        background-size: 425px 841px;
+    }
+    #section2Logo{
+        display:none;
+    }
+}
